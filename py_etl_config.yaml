@@ -1,0 +1,19 @@
+version: 1
+main_title: ETL for Covid19 Cases by Country
+
+apis:
+  api_source: ESRI
+  api_description: COVID19 World Cases
+  api_url: https://opendata.arcgis.com/datasets/628578697fb24d8ea4c32fa0c5ae1843_0.geojson
+  api_data_type: geojson
+  feat_class_name: public.covid_cases_esri
+  effective_date: '2020-09-01'
+  expires_date: null
+
+pg:
+  pg_host: localhost
+  pg_port: 5432
+  pg_database: hzgeo_dev
+  pg_user: postgres
+  pg_pwd: postgres
+  pg_schema: public
