@@ -1,6 +1,6 @@
 # ETL from ArcGIS COVID19 API to a Postgres Database
 
-# NOTES:
+NOTES:
 1) No Scheduler is used yet.
 2) API from ESRI source.
 3) To provide a dynamic covid map layer so that new data is display, the Python ETL script must run at a scheudled interval (i.e. daily, hourly, twice a day...etc).
